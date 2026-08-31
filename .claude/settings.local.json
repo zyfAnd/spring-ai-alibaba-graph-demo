@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://repo1.maven.org/maven2/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/1.0.0.M1/spring-ai-alibaba-graph-core-1.0.0.M1.pom\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://repo.spring.io/milestone/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/1.0.0.M1/spring-ai-alibaba-graph-core-1.0.0.M1.pom\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://maven.aliyun.com/repository/public/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/1.0.0.M1/spring-ai-alibaba-graph-core-1.0.0.M1.pom\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://central.sonatype.com/repository/maven-snapshots/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/1.0.0.M1/\")",
+      "Bash(curl -s \"https://repo1.maven.org/maven2/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/maven-metadata.xml\")",
+      "Bash(curl -s \"https://maven.aliyun.com/repository/public/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/maven-metadata.xml\")",
+      "Bash(curl -s \"https://repo.spring.io/milestone/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/maven-metadata.xml\")",
+      "Bash(curl -s \"https://repo1.maven.org/maven2/com/alibaba/cloud/ai/spring-ai-alibaba-starter-dashscope/maven-metadata.xml\")",
+      "Bash(cat ~/.m2/settings.xml 2>/dev/null | head -60)",
+      "Read(//Users/yanfu/.m2/**)",
+      "Bash(mvn -v)",
+      "Bash(curl -s \"https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-tomcat-runtime/maven-metadata.xml\")",
+      "Bash(curl -s \"https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-parent/maven-metadata.xml\")",
+      "Bash(unzip -l /Users/yanfu/.m2/repository/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/1.1.2.3/spring-ai-alibaba-graph-core-1.1.2.3.jar)",
+      "Read(//private/tmp/node_check/**)",
+      "Bash(unzip -o -q /Users/yanfu/.m2/repository/com/alibaba/cloud/ai/spring-ai-alibaba-graph-core/1.1.2.3/spring-ai-alibaba-graph-core-1.1.2.3.jar com/alibaba/cloud/ai/graph/action/NodeActionWithConfig.class com/alibaba/cloud/ai/graph/action/AsyncNodeActionWithConfig.class com/alibaba/cloud/ai/graph/StateGraph.class)",
+      "Bash(javap com/alibaba/cloud/ai/graph/action/NodeActionWithConfig.class)",
+      "Bash(javap com/alibaba/cloud/ai/graph/action/AsyncNodeActionWithConfig.class)",
+      "Bash(javap com/alibaba/cloud/ai/graph/StateGraph.class)"
+    ]
+  }
+}
