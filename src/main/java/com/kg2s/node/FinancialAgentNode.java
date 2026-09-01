@@ -10,6 +10,9 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 财务审核
+ */
 @Component("financialAgentNode")
 public class FinancialAgentNode implements NodeAction {
 
@@ -23,7 +26,7 @@ public class FinancialAgentNode implements NodeAction {
 
 
     /**
-     * 
+     *
      * @param state
      * @return
      * @throws Exception

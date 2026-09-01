@@ -11,6 +11,9 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 信用审核
+ */
 @Component("creditAgentNode")
 public class CreditAgentNode implements NodeAction {
 
